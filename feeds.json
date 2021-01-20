@@ -1,0 +1,34 @@
+{
+    "fields":[
+        {
+            "name":"__Step 1: Creating a feed__",
+            "value":"The `create` subcommand creates a feed.\n> **Syntax:** `!feed create feedname role`\n> **Example:** !feed create mods <@&209797471608635392>",
+            "inline":false
+        },
+        {
+            "name":"__Step 1.5: Moving a feed__",
+            "value":"The channel the feed will be associated with is the channel in which it was created. Don't want your announcements sent in that channel? Move it with the `move` subcommand.\n> **Syntax:** `!feed move feedname channel`\n> **Example:** !feed move mods #staff-chat",
+            "inline":false
+        },
+        {
+            "name":"__Step 2: Using a feed__",
+            "value":"To use the feed, you use the `announce` subcommand.\n(`announce` is also an alias for `feed announce`)\n> **Syntax:** `!announce feedname your message`\n> **Example:** !announce mods Stop trolling the users with echo.",
+            "inline":false
+        },
+        {
+            "name":"__Viewing feeds:__",
+            "value":"You can see a list of all of the feeds on your server by using the `feed` or `feeds` command without any subcommands.",
+            "inline":false
+        },
+        {
+            "name":"__Deleting feeds:__",
+            "value":"Say you are done with the feed and you don't need it anymore. To delete it, you use `feed delete`. This does *NOT* delete the channel or the role the feed associates.\n> **Syntax:** `!feed delete feedname`\n> **Example:** !feed delete mods\n\nIt's useful to [combine feeds with tags](https:\/\/discordapp.com\/channels\/186980582863929345\/554783406890680331\/629497445021253649) to give users that otherwise would not be able to use the announce command permission through `{\u00adoverride\u00ad}` to make announcements to one specific role without needing to give that user the ability to create, move, or delete other feeds.",
+            "inline":false
+        }
+    ],
+    "color":7506394,
+    "type":"rich",
+    "description":"What are feeds? Feeds are a way for you to make announcements and ping a specific role without having to deal with the annoyances and potential abuse from having a mentionable role or manually toggling a role inbetween mentionable and not. You need Manage Server Discord permissions to use the feed commands.\n\nA feed is an association between a role and a channel. When you use the feed announce command, the role will be set to mentionable very briefly, the role will be pinged and your message will be sent in the channel with which the feed is associated, and the role will subsequently be set back to unmentionable.",
+    "url":"https:\/\/docs.carl.gg\/utilities\/announcements\/",
+    "title":"Feed Documentation"
+}
