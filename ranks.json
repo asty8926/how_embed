@@ -1,0 +1,32 @@
+{
+    "footer":{
+        "text":"Roles with spaces, emojis, or symbols should be surrounded with quotation marks, mentioned, or referred to by role id."
+    },
+    "fields":[
+        {
+            "name":"__Authorizing roles__",
+            "value":"The `addrank` command adds a role to the ranks system so it can be self-assigned. The command user must have 'Manage Roles' permission, and both the command user and the bot must be able to add the role to other users (both must be higher in the hierarchy than the target role). \\**See footnote*.\n> **Syntax:** `!addrank role(s)`\n> **Example:** !addrank Orange Yellow Green Purple Red Cyan Pink \"Seafoam Green\"",
+            "inline":false
+        },
+        {
+            "name":"__Viewing ranks__",
+            "value":"The `ranks` command displays all roles that have been authorized for self-assignment.",
+            "inline":false
+        },
+        {
+            "name":"__Using ranks__",
+            "value":"Users can add or remove ranks from themselves with the `rank` coammand:\n> **Syntax:** `!rank role`\n> **Example:** !rank Green\nand with the `rank custom` command.\n> **Syntax:** `!rank custom +RoleToAdd -RoleToRemove`\n> **Example:** !rank custom +Red +Pink -Green",
+            "inline":false
+        },
+        {
+            "name":"__Deauthorizing roles__",
+            "value":"The `removerank` command removes a role from the ranks system so it can no longer be self-assigned. The command user must have 'Manage Roles' permission, and both the command user and the bot must be able to add the role to other users (both must be higher in the hierarchy than the target role). \\**See footnote*.\n> **Syntax:** `!removerank role(s)`\n> **Example:** !removerank Yellow \"Seafoam Green\" Cyan",
+            "inline":false
+        }
+    ],
+    "color":7506394,
+    "type":"rich",
+    "description":"Ranks are roles that have been authorized by a server Admin or Moderator for self-assignment through the use of the `rank` command by users. This system is similar to `iam` commands in other bots.",
+    "url":"https:\/\/docs.carl.gg\/roles\/role-management\/",
+    "title":"Ranks Documentation"
+}
