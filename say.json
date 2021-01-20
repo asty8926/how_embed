@@ -1,0 +1,27 @@
+{
+    "fields":[
+        {
+            "name":"__Sending a regular message__",
+            "value":"The `echo` command makes the bot say something in the specified channel with a regular message.\n> **Syntax:** `!echo #channel message`\n> **Example:** !echo <#186980582863929345> Hello world",
+            "inline":false
+        },
+        {
+            "name":"__Sending a simple embed__",
+            "value":"The `embed` command creates an embed with the specified hex color in the specified channel, containing a title and\/or description. Separate the title from the description with a vertical pipe `|`.\n> **Syntax:** `!embed #channel #HEXCLR Title|Description`\n> **Example:** !embed <#186980582863929345> #ABCDEF Hello|world",
+            "inline":false
+        },
+        {
+            "name":"__Sending a complex embed__",
+            "value":"The `customembed` (or `cembed`) command posts an embed in a specified channel based on the raw JSON Discord uses. If this confuses you, use the embed builder on the website instead, please!\n> **Syntax:** `!cembed #channel {JSON}`\n> **Example:** !cembed <#186980582863929345> {\"description\":\"Hello world\",\"color\":2105893}",
+            "inline":false
+        },
+        {
+            "name":"__Sending messages with the Dashboard's Embed Builder__",
+            "value":"The [Dashboard](https:\/\/carl.gg\/)'s Embed Builder can send both regular messages and embeds to the specified channel. Accessing a server's dashboard requires having Manage Server permission in that server.",
+            "inline":false
+        }
+    ],
+    "color":7506394,
+    "type":"rich",
+    "title":"How to \"say things\" with Carl-bot:"
+}
