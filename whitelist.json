@@ -1,0 +1,21 @@
+{
+    "footer":{
+        "text":"\u00b9Provided said command is enabled, neither the command nor the bot are flagged as \"Mod Only\", Carlbot can see the channel it was issued in, and the command does not require Discord-specific permissions by default which must be overridden separately."
+    },
+    "fields":[
+        {
+            "name":"***In the context of Carlbot commands, there are:***",
+            "value":"> 1) Roles and channels that ignore any other overrides (#2-4).\n> 2) Global blacklists for both channels and roles.\n> 3) Per-command blacklists for both channels and roles.\n> 4) Per-command whitelists for both channels and roles.\nThese overrides are followed in a top-down order. \nSo #1 > #2-4, #2 > #3-4, and #3 > #4.\n#1 and #2 can be found in the Global Settings tab of the Commands menu on the [Dashboard](https:\/\/carl.gg\/). #3 and #4 are found in specific command settings on the dashboard by clicking the gear icon for any given command.",
+            "inline":false
+        },
+        {
+            "name":"***What do those mean? Here are the rules:***",
+            "value":"> #1: Carlbot *will* acknowledge any command issued either by a user with a role listed as ignoring overrides, or in a channel listed as ignoring overrides.\u00b9\n> #2: Carlbot *will not* acknowledge any command issued either by a user with a role on the global blacklist, or in a channel on the global blacklist.\n> #3: Carlbot *will not* acknowledge a specific command issued either by a user with a role on that command's blacklist, or in a channel on that command's blacklist.\n> #4: Carlbot *will only* acknowledge a specific command when it is issued either by a user with a role on that command's whitelist, or in a channel on that command's whitelist.\u00b9",
+            "inline":false
+        }
+    ],
+    "color":6461183,
+    "type":"rich",
+    "description":"> A __Blacklist__ refers to the testing of a desired input against a list of negative attributes. Inputs matching *ANY* negative attributes are ignored or excluded.\n> A __Whitelist__ refers to the testing of a desired input against a list of possible correct attributes. *ONLY* inputs matching a correct attribute are accepted.\nUsually whitelists and blacklists are used exclusively, not in conjunction.",
+    "title":"**Guide to Carlbot Command Overrides**"
+}
