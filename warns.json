@@ -1,0 +1,40 @@
+{
+    "image":{
+        "url":"https:\/\/i.imgur.com\/ZzzynMm.png",
+        "proxy_url":"https:\/\/images-ext-2.discordapp.net\/external\/7-h5a4DzysQw3U9TnJos6-uqv8gQU9RuxYCG6iGFE-8\/https\/i.imgur.com\/ZzzynMm.png",
+        "width":333,
+        "height":114
+    },
+    "fields":[
+        {
+            "name":"__Warning a member__",
+            "value":"The `warn` command warns a member with an optional reason argument.\n> **Syntax:** `!warn <member> [reason]`\n> **Example:** !warn @Carl#0001 do not spam reactions",
+            "inline":false
+        },
+        {
+            "name":"__Listing warns__",
+            "value":"The `warns` command lists all current warnings in the server. Specify a member to see all of their warnings.\n> **Syntax:** `!warns [member]`\n> **Example:** !warns @Carl#0001",
+            "inline":false
+        },
+        {
+            "name":"__Removing a warning__",
+            "value":"The `removewarn` command removes a single warning. Specify which using the case id.\n> **Syntax:** `![removewarn|removewarning] <case_id>`\n> **Example:** !removewarn 17",
+            "inline":false
+        },
+        {
+            "name":"__Clearing all warnings from a member__",
+            "value":"The `clearwarn` command removes all warnings from a member.\n> **Syntax:** `![clearwarn|clearwarnings] <member>`\n> **Example:** !clearwarn @Carl#0001",
+            "inline":false
+        },
+        {
+            "name":"\u200b",
+            "value":"What a warning looks like in modlogs (case_id underlined):",
+            "inline":false
+        }
+    ],
+    "color":7506394,
+    "type":"rich",
+    "description":"For the following commands, `|` indicates a command alias, `< >` indicates a necessary argument, `[ ]` indicates an optional argument. Do not include any of those symbols in the invocation.",
+    "url":"https:\/\/docs.carl.gg\/moderation\/moderation\/",
+    "title":"Moderation Documentation"
+}
