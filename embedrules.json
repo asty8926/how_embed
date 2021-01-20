@@ -1,0 +1,8 @@
+{
+    "author":{
+        "name":"Embed Rules"
+    },
+    "color":16711680,
+    "type":"rich",
+    "description":"\u2022Url fields must be or lead to an HTTP\/HTTPS formatted URL.\n\u2022Image fields (Image URL, Thumbnail URL, Icon URL) must be direct image links (end in .png, .jpg, .gif etc)\n\u2022All Title fields, the (Author's) Name field, and the Footer cannot display mentions or named links, and have limited support of markdown formatting.\n\u2022If a field exists, the title and the description must both have values.\n\u2022Must have a value in \"Name\" for \"Icon URL\" to display.\n\u2022Must have a value in \"Name\" for \"Name URL\" to work.\n\u2022Must have a value in \"Title\" for \"Title URL\" to work.\n\u2022Must have a value in \"Footer\" for the \"Footer icon\" to display.\n\u2022In addition to the stated character limits for each field provided below the embed builder's text boxes, the sum of all characters in an embed structure must not exceed 6000 characters.\n\u2022Do not put values in the JSON \"timestamp\": field if you don't know the correct format for them. The correct format is ISO 8601: `yyyy-mm-ddTHH:MM:SS.000Z`"
+}
