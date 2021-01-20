@@ -1,0 +1,6 @@
+{
+    "color":41720,
+    "type":"rich",
+    "description":"Inserting the name and URL in the following format:\n`[Name goes here](URL_goes_here \"mouse hover text goes in quotes\")`\n\n__Example__\n`[Dashboard](https:\/\/carl.gg\/ \"Most dashing dashboard ever\")` would look like:\n[Dashboard](https:\/\/carl.gg\/ \"Most dashing dashboard ever\")",
+    "title":"In Embed \"Description\" fields, you can create named links by"
+}
