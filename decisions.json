@@ -1,0 +1,40 @@
+{
+    "image":{
+        "url":"https:\/\/i.imgur.com\/W1a8oW0.png",
+        "proxy_url":"https:\/\/images-ext-2.discordapp.net\/external\/SEDjDkjOv3GpZ4ruZQeaSsYhgALvogS7kiTjMIzyMB4\/https\/i.imgur.com\/W1a8oW0.png",
+        "width":521,
+        "height":189
+    },
+    "fields":[
+        {
+            "name":"__Approving a suggestion__",
+            "value":"The `approve` command marks a suggestion as approved.\n> **Syntax:** `!approve ID reason`\n> **Example:** !approve 5 Great idea man, will add it for sure",
+            "inline":false
+        },
+        {
+            "name":"__Denying a suggestion__",
+            "value":"The `deny` command denies a suggestion.\n> **Syntax:** `!deny ID reason`\n> **Example:** !deny 6 This is literally impossible due to how discord works",
+            "inline":false
+        },
+        {
+            "name":"__Considering a suggestion__",
+            "value":"The `consider` command marks a suggestion as being considered.\n> **Syntax:** `!consider ID reason`\n> **Example:** !consider 4 I'm not sure if this would really add that much, but if the people want it...",
+            "inline":false
+        },
+        {
+            "name":"__Implementing a suggestion__",
+            "value":"The `implemented` command marks a suggestion as implemented.\n> **Syntax:** `!implemented ID reason`\n> **Example:** !implemented 5 the command is !youtubesub",
+            "inline":false
+        },
+        {
+            "name":"\u2800",
+            "value":"What a suggestion looks like (id underlined):",
+            "inline":false
+        }
+    ],
+    "color":7506394,
+    "type":"rich",
+    "description":"For the following commands, the suggestion ID is required, but reasons are optional. If no reason is provided, the reason will be \"No reason given\".",
+    "url":"https:\/\/docs.carl.gg\/utilities\/suggestions\/",
+    "title":"Suggestions Documentation"
+}
