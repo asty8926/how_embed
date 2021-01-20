@@ -1,0 +1,15 @@
+{
+    "image":{
+        "url":"https:\/\/i.imgur.com\/hQjbM4G.png",
+        "proxy_url":"https:\/\/images-ext-2.discordapp.net\/external\/6xIQADGNhqTmx0GtC68-ZwXPWeMP27I0tWXqJ_2Rgms\/https\/i.imgur.com\/hQjbM4G.png",
+        "width":1200,
+        "height":324
+    },
+    "author":{
+        "name":"Automod feature (premium only)",
+        "url":"https:\/\/docs.carl.gg\/moderation\/automod\/"
+    },
+    "color":5198940,
+    "type":"rich",
+    "description":"When you have your automod settings to \"defer\", it will send the offending message to the drama channel where you can decide what the punishment suitable is through the use of reactions. This channel should obviously not be made public."
+}
