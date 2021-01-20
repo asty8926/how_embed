@@ -1,0 +1,9 @@
+{
+    "color":41720,
+    "type":"rich",
+    "description":"
+Join Linked Voice Channel \u2192 Gain Linked Role\nLeave Linked Voice Channel \u2192 Lose Linked Role
+\nUseful for music command channels being hidden until the user is in the music voice room, giving voice channels a linked text channel for no-mic users, and more.\n\nConfigure on your server's [Dashboard](https:\/\/carl.gg\/).",
+    "url":"https:\/\/www.patreon.com\/carlbot",
+    "title":"Voice Links: (Premium Only)"
+}
