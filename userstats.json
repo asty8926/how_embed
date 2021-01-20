@@ -1,0 +1,23 @@
+{
+    "fields":[
+        {
+            "name":"__Account Age Lists:__",
+            "value":"The two commands `youngest` and `oldest` will respectively display the member accounts on a server which were created most or least recently. The count parameter is how many members to list, and can only be up to 25.\n> **Syntax:** `!youngest count`\n> **Syntax:** `!oldest count`\n> **Example:** !youngest 10\n> **Example:** !oldest 15",
+            "inline":false
+        },
+        {
+            "name":"__Server Age Lists:__",
+            "value":"The two commands `newusers` (or `newmembers`) and `oldusers` (or `oldmembers`) will respectively display the member accounts on a server which joined that server most or least recently. The count parameter is how many members to list, and can only be up to 25.\n> **Syntax:** `!newusers count`\n> **Syntax:** `!oldusers count`\n> **Example:** !newusers 10\n> **Example:** !oldusers 15",
+            "inline":false
+        },
+        {
+            "name":"__Custom Lists:__",
+            "value":"You can use the [Dump command](https:\/\/docs.carl.gg\/utilities\/dump\/ \"Dump Documentation\") to output member lists with a large amount of customization, from your choice of information, separators, enumeration and date formatting, and custom limits. It can also be specified for certain roles, combinations of roles, or members without roles. Click on the link to for instructions.",
+            "inline":false
+        }
+    ],
+    "color":7506394,
+    "type":"rich",
+    "description":"Due to the size of the messages these commands output, they all require Manage Messages permission to be used in a server.",
+    "title":"Displaying User Demographics"
+}
