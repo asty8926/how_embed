@@ -1,0 +1,38 @@
+{
+    "image":{
+        "url":"https:\/\/i.imgur.com\/sZe4S7t.png",
+        "proxy_url":"https:\/\/images-ext-1.discordapp.net\/external\/5Vu13yv7HFMD1PVelR3KLrKP7bhlp6h5maohxIPsmSU\/https\/i.imgur.com\/sZe4S7t.png",
+        "width":247,
+        "height":88
+    },
+    "fields":[
+        {
+            "name":"__Making a note__",
+            "value":"The `setnote` command assigns the note to the member specified.\n> **Syntax:** `!setnote @member note`\n> **Example:** !setnote @Carl#0001 is awesome!",
+            "inline":false
+        },
+        {
+            "name":"__Viewing notes__",
+            "value":"The `notes` command displays all of a specified member's notes.\n> **Syntax:** `!notes @member`\n> **Example:** !notes @Carl#0001",
+            "inline":false
+        },
+        {
+            "name":"__Removing notes__",
+            "value":"The `removenote` command removes a note by its note id\n> **Syntax:** `!removenote note_id`\n> **Example:** !removenote 6",
+            "inline":false
+        },
+        {
+            "name":"__Clearing a member's notes__",
+            "value":"The `clearnotes` command removes all notes from a member.\n> **Syntax:** `!clearnotes @member`\n> **Example:** !clearnotes @Carl#0001",
+            "inline":false
+        },
+        {
+            "name":"\u200b",
+            "value":"What a note looks like (id is circled):",
+            "inline":false
+        }
+    ],
+    "color":7506394,
+    "type":"rich",
+    "description":"Do **NOT** turn \"Delete Invocation\" on for the setnote command. The invocation is deleted by default, and turning that setting on may result in an error. All note commands require the user to have 'Manage Server' Discord server permission."
+}
